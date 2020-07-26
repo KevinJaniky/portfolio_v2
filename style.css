@@ -79,7 +79,7 @@ article {
     align-items: center;
 }
 
-article:nth-child(2n){
+article:nth-child(2n) {
     flex-direction: row-reverse;
 }
 
@@ -154,18 +154,28 @@ article .botside_item .tags {
 
 article .botside_item .tags span {
     padding: 5px 10px;
-    background: #fd4145 ;
+    background: #fd4145;
     border-radius: 15px;
     color: white;
     font-weight: bold;
     font-size: 9px;
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 520px) {
     article {
         flex-direction: column;
+        align-items: normal;
     }
-    article:nth-child(2n){
+
+    article:nth-child(2n) {
         flex-direction: column;
+    }
+
+    article .description_item {
+        margin-left: 0;
+        padding: 25px;
+    }
+    article .image_item {
+        margin: auto;
     }
 }
