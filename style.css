@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+}
+
+nav .logo {
+    background: url(./images/logo.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    background: url(./images/kevin.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    margin: 50px;
+    font-weight: inherit;
+}
+
+h2:after {
+    content: '';
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: calc(50% + 100px);
+    transform: translateX(-50%);
+}
+
+h2:before {
+    content: '';
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: calc(50% - 100px);
+    transform: translateX(-50%);
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
+
+article {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+article .image_item {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+article .description_item ul {
+    list-style: none;
+}
+
+article .description_item {
+    margin-left: 35px;
+}
+
+article .description_item ul li i {
+    margin-right: 10px;
+}
+
+article .description_item ul li a {
+    text-decoration: none;
+    color: #fd4145;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+article .description_item ul li a:hover {
+    color: #9e2326;
+}
+
+article .description_item ul li a:nth-child(2n) {
+    text-decoration: none;
+    color: #9e2326;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+article .description_item ul li a:nth-child(2n):hover {
+    color: #fd4145;
+}
+
+article .botside_item {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+article .botside_item .description_entreprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .botside_item .description_entreprise .logo_entreprise {
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+
+article .botside_item .description_entreprise .name_entreprise {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+article .botside_item .tags {
+    margin-top: 10px;
+}
+
+article .botside_item .tags span {
+    padding: 5px 10px;
+    background: #fd4145 ;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+}

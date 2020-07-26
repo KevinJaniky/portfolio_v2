@@ -1,0 +1,173 @@
+[
+  {
+    "picture": "./images/spheery/image.png",
+    "title": "Spheery : Création d'un réseau social",
+    "listing": [
+      "Messagerie instantanée",
+      "Système de commentaire",
+      "Paiement sécurisé",
+      "Backoffice de gestion"
+    ],
+    "entreprise": {
+      "logo": "./images/spheery/logo.png",
+      "name": "S.A.S Lama"
+    },
+    "tags": [
+      "PHP",
+      "Mysql",
+      "Laravel",
+      "NodeJS",
+      "SocketIo",
+      "Stripe"
+    ]
+  },
+  {
+    "picture": "./images/accentcom/image.png",
+    "title": "Développement BackEnd",
+    "listing": [
+      "Développement plugin Wordpress",
+      "Intégration API externe",
+      "Création d'article wordpress à la volée",
+      "Stripe - système abonnement"
+    ],
+    "entreprise": {
+      "logo": "./images/accentcom/logo.png",
+      "name": "ACCENTCOM"
+    },
+    "tags": [
+      "Wordpress",
+      "XML",
+      "Json",
+      "Stripe"
+    ]
+  },
+  {
+    "picture": "./images/gridky/image.png",
+    "title": "Gridky",
+    "listing": [
+      "Développement Laravel",
+      "Développement Nova",
+      "Développement VueJS"
+    ],
+    "entreprise": {
+      "logo": "./images/gridky/logo.png",
+      "name": "Gridky"
+    },
+    "tags": [
+      "Laravel",
+      "Nova",
+      "SASS",
+      "VueJS"
+    ]
+  },
+  {
+    "picture": "./images/lineor/image.png",
+    "title": "Lineor - Site Ecommerce",
+    "listing": [
+      "Développement de site e-commerce",
+      "Création de script d'import et de plugin Wordpress"
+    ],
+    "entreprise": {
+      "logo": "./images/lineor/logo.png",
+      "name": "Boutique Lineor"
+    },
+    "tags": [
+      "Wordpress",
+      "Ecommerce",
+      "WooCommerce",
+      "Paypal"
+    ]
+  },
+  {
+    "picture": "./images/kevin/image.png",
+    "title": "Développement BackEnd",
+    "listing": [
+      "Plateforme de recherche d'alternance",
+      "Scrapping Linkeding / doyoubuzz"
+    ],
+    "entreprise": {
+      "logo": "./images/kevin/logo.png",
+      "name": "Kevin JANIKY"
+    },
+    "tags": [
+      "Laravel",
+      "ElasticSearch",
+      "SASS"
+    ]
+  },
+  {
+    "picture": "./images/otakest/image.png",
+    "title": "Otakest",
+    "listing": [
+      "API Laravel - Gestion grâce a un backOffice",
+      "Système d'évenement",
+      "FRONT Angular 7"
+    ],
+    "entreprise": {
+      "logo": "./images/otakest/logo.png",
+      "name": "Otakest"
+    },
+    "tags": [
+      "Laravel",
+      "Mysql",
+      "Angular 7"
+    ]
+  },
+  {
+    "title": "Agence Web - Besancon",
+    "listing": [
+      "Développement application WEB",
+      "Développement application Mobile ( exemple : MyAnnecy Festival )",
+      "Développement site touristique",
+      "Gestion serveur",
+      "Sécurité informatique",
+      "Développement API"
+    ],
+    "entreprise": {
+      "name": "Agence Web - Besancon"
+    },
+    "tags": [
+      "Symfony",
+      "ElasticSearch",
+      "Angular - Ionic",
+      "Wordpress",
+      "NodeJS",
+      "Debian"
+    ]
+  },
+  {
+    "title": "SSII à ANTHONY (92)",
+    "listing": [
+      "Développement Drupal",
+      "Développement application Ruby",
+      "Développement site à fort trafic ( Coca-Cola / CapGemini / Arval )",
+      "Développement API"
+    ],
+    "entreprise": {
+      "name": "SSII à ANTHONY (92)"
+    },
+    "tags": [
+      "Drupal 7 / 8",
+      "Apache SolR",
+      "Angular",
+      "Wordpress",
+      "Debian"
+    ]
+  },
+  {
+    "title": "Freelance",
+    "listing": [
+      "Mise en ligne de Site",
+      "Développement Wordpress",
+      "<a href='https://www.yuna-creation.fr/' target='_blank'>YunaCréation</a> <a href='http://audreyphilippot.fr/'  target='_blank'>AudreyPhilippot</a> <a href='https://www.elleestdailleurs.com/'  target='_blank'>ElleEstDailleur</a> <a href='https://petrova-marketing.fr/'  target='_blank'>PetrovaMarketing</a> "
+    ],
+    "entreprise": {
+      "logo": "./images/kevin/logo.png",
+      "name": "Kevin JANIKY"
+    },
+    "tags": [
+      "Debian",
+      "Wordpress"
+    ]
+  }
+]
