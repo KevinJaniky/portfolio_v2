@@ -160,3 +160,12 @@ article .botside_item .tags span {
     font-weight: bold;
     font-size: 9px;
 }
+
+@media screen and (max-width: 520px){
+    article {
+        flex-direction: column;
+    }
+    article:nth-child(2n){
+        flex-direction: column;
+    }
+}
